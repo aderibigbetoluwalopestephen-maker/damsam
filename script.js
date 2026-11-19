@@ -5,15 +5,15 @@ const products = [
   {id:4,name:"Mixed Sharwama",category:"Sharwama",price:4000,tag:"",emoji:"🌮",description:"The best of both — chicken and beef together. For those who can't choose.",image:"https://images.unsplash.com/photo-1529006557810-274b9b2fc783?auto=format&fit=crop&w=700&q=82"},
   {id:5,name:"Barbeque Chicken",category:"Barbeque",price:15000,tag:"Smoky",emoji:"🍗",description:"Smoky, charcoal-grilled chicken seasoned to perfection. Served hot off the grill.",image:"https://images.unsplash.com/photo-1598103442097-8b74394b95c6?auto=format&fit=crop&w=700&q=82"},
   {id:6,name:"Barbeque Fish",category:"Barbeque",price:10000,tag:"",emoji:"🐟",description:"Fresh grilled fish with our signature spice blend. Rich flavour, tender flesh.",image:"https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?auto=format&fit=crop&w=700&q=82"},
-  {id:7,name:"Asun",category:"Asun",price:1500,tag:"Spicy 🌶️",emoji:"🥩",description:"Spicy peppered goat meat — a classic Nigerian BBQ snack. Hot, smoky and addictive.",image:"https://images.unsplash.com/photo-1529042410759-befb1204b468?auto=format&fit=crop&w=700&q=82"},
+  {id:7,name:"Asun",category:"Asun",price:1500,tag:"Spicy",emoji:"🥩",description:"Spicy peppered goat meat — a classic Nigerian BBQ snack. Hot, smoky and addictive.",image:"https://images.unsplash.com/photo-1529042410759-befb1204b468?auto=format&fit=crop&w=700&q=82"},
   {id:8,name:"Fries & Chicken",category:"Fries",price:4000,tag:"",emoji:"🍟",description:"Crispy golden fries paired with seasoned fried chicken. Comfort food at its best.",image:"https://images.unsplash.com/photo-1630384060421-cb20d0e0649d?auto=format&fit=crop&w=700&q=82"},
   {id:9,name:"Garnished Noodles & Fried Egg",category:"Noodles",price:2000,tag:"Light Meal",emoji:"🍜",description:"Seasoned stir-fried noodles topped with a perfectly fried egg. Quick and satisfying.",image:"https://images.unsplash.com/photo-1569718212165-3a8278d5f624?auto=format&fit=crop&w=700&q=82"},
-  {id:10,name:"Spicy Noodles & Fried Egg (Plantain)",category:"Noodles",price:2500,tag:"",emoji:"♨️",description:"Hearty noodles combined with a perfectly fried egg. Quick and satisfying.",image:"https://images.unsplash.com/photo-1612929633738-8fe44f7ec841?auto=format&fit=crop&w=700&q=85"},
-  {id:11,name:"Jollof rice and Beef",category:"Noodles",price:2500,tag:"",emoji:"🍛",description:"Hearty noodles combined with our flavourful grilled chicken pieces.",image:"https://images.unsplash.com/photo-1512058564366-18510be2db19?auto=format&fit=crop&w=700&q=82"},
-  {id:12,name:"Jollof rice and Chicken (Medium)",category:"Noodles",price:3000,tag:"Popular",emoji:"🍛",description:"Hearty Jollof rice combined with our flavourful grilled chicken pieces.",image:"https://images.unsplash.com/photo-1512058564366-18510be2db19?auto=format&fit=crop&w=700&q=82"},
+  {id:10,name:"Spicy Noodles & Fried Egg (Plantain)",category:"Noodles",price:2500,tag:"",emoji:"♨️",description:"Hot, spicy stir-fried noodles served with fried egg and plantain.",image:"https://images.unsplash.com/photo-1612929633738-8fe44f7ec841?auto=format&fit=crop&w=700&q=85"},
+  {id:11,name:"Jollof rice and Beef",category:"Noodles",price:2500,tag:"",emoji:"🍛",description:"A serving of Nigerian jollof rice with tender grilled beef.",image:"https://images.unsplash.com/photo-1512058564366-18510be2db19?auto=format&fit=crop&w=700&q=82"},
+  {id:12,name:"Jollof rice and Chicken (Medium)",category:"Noodles",price:3000,tag:"Popular",emoji:"🍛",description:"Nigerian jollof rice served with seasoned grilled chicken.",image:"https://images.unsplash.com/photo-1512058564366-18510be2db19?auto=format&fit=crop&w=700&q=82"},
   {id:13,name:"Jollof rice and Chicken (Big)",category:"Noodles",price:3500,tag:"",emoji:"🍛",description:"Hearty Jollof rice combined with our flavourful grilled chicken pieces.",image:"https://images.unsplash.com/photo-1512058564366-18510be2db19?auto=format&fit=crop&w=700&q=82"},
-  {id:14,name:"Pasta and Beef",category:"Noodles",price:2300,tag:"",emoji:"🍝",description:"Seasoned stir-fried Pasta combined with our flavourful grilled beef pieces.",image:"https://images.unsplash.com/photo-1473093295043-cdd812d0e601?auto=format&fit=crop&w=700&q=82"},
-  {id:15,name:"Pasta and Chicken (Medium)",category:"Noodles",price:2800,tag:"",emoji:"🍝",description:"Seasoned stir-fried Pasta combined with our flavourful grilled chicken pieces.",image:"https://images.unsplash.com/photo-1473093295043-cdd812d0e601?auto=format&fit=crop&w=700&q=82"},
+  {id:14,name:"Pasta and Beef",category:"Noodles",price:2300,tag:"",emoji:"🍝",description:"Well-seasoned pasta served with grilled beef.",image:"https://images.unsplash.com/photo-1473093295043-cdd812d0e601?auto=format&fit=crop&w=700&q=82"},
+  {id:15,name:"Pasta and Chicken (Medium)",category:"Noodles",price:2800,tag:"",emoji:"🍝",description:"Well-seasoned pasta served with grilled chicken.",image:"https://images.unsplash.com/photo-1473093295043-cdd812d0e601?auto=format&fit=crop&w=700&q=82"},
   {id:16,name:"Pasta and Chicken (Big)",category:"Noodles",price:3400,tag:"",emoji:"🍝",description:"Seasoned stir-fried Pasta combined with our flavourful grilled chicken pieces.",image:"https://images.unsplash.com/photo-1473093295043-cdd812d0e601?auto=format&fit=crop&w=700&q=82"}
 ];
 const WHATSAPP_NUMBER = "2347081992566";
@@ -63,7 +63,7 @@ function renderCart() {
   document.getElementById("cartSubtotal").textContent = money(total);
   const container = document.getElementById("cartItems");
   if (!cart.length) {
-    container.innerHTML = '<div class="empty-cart"><span>🛒</span><h3>Your cart is empty</h3><p>Add your favourites from our menu.</p><button class="primary-button" id="continueShopping">Browse Menu ↗</button></div>';
+    container.innerHTML = '<div class="empty-cart"><h3>Your cart is empty</h3><p>Add your favourites from our menu.</p><button class="primary-button" id="continueShopping">Browse Menu ↗</button></div>';
     return;
   }
   container.innerHTML = cart.map(item =>
@@ -146,7 +146,7 @@ document.getElementById("orderForm").addEventListener("submit", event => {
     showToast("Please complete all order details");
     return;
   }
-  const message = "Hello Damsam Treats! I would like to place an order.\n\nName: " + name + "\nPhone: " + phone + "\nPreferred location: " + location + "\n\nMy order:\n" + order + "\n\nPlease confirm my order. Thank you.";
+  const message = "Good day, Damsam Treats. I would like to place an order.\n\nName: " + name + "\nPhone: " + phone + "\nPreferred location: " + location + "\n\nMy order:\n" + order + "\n\nPlease confirm my order. Thank you.";
   window.open("https://wa.me/" + WHATSAPP_NUMBER + "?text=" + encodeURIComponent(message), "_blank", "noopener");
 });
 document.getElementById("menuToggle").addEventListener("click", () => {
