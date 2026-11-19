@@ -3,88 +3,98 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="theme-color" content="#171717">
-  <meta name="description" content="Discover quality everyday essentials at Damsam Store. Shop a curated collection with easy checkout.">
-  <title>Damsam Store — Everyday Finds, Elevated</title>
+  <meta name="theme-color" content="#20140f">
+  <meta name="description" content="Damsam Treats in Ibadan serves fresh Sharwama, Barbeque, Asun, Fries, Noodles and more. Open 24 hours, every day.">
+  <title>Damsam Treats | Cravings Meet Satisfaction</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="announcement">A little something special in every order <span>✦</span> Shop Damsam today</div>
+  <div class="announcement"><span class="live-dot"></span> OPEN 24 HOURS · 7 DAYS A WEEK <span class="announcement-location">📍 Ibadan, Nigeria</span></div>
   <header class="site-header">
-    <a class="brand" href="#" aria-label="Damsam Store home"><span class="brand-mark">D</span><span>DAMSAM<span class="brand-sub">STORE</span></span></a>
-    <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false"><span></span><span></span></button>
-    <nav class="main-nav" id="mainNav">
-      <a class="active" href="#home">Home</a>
-      <a href="#shop">Shop</a>
-      <a href="#story">Our Story</a>
-      <a href="#footer">Contact</a>
-    </nav>
-    <div class="header-actions">
-      <button class="icon-button" id="searchFocus" aria-label="Focus search"><svg viewBox="0 0 24 24"><circle cx="10.8" cy="10.8" r="6.8"></circle><path d="m16 16 5 5"></path></svg></button>
-      <button class="cart-button" id="openCart" aria-label="Open shopping bag"><svg viewBox="0 0 24 24"><path d="M5 8h14l1 13H4L5 8Z"></path><path d="M9 9V6a3 3 0 0 1 6 0v3"></path></svg><span>Bag</span><b id="cartCount">0</b></button>
-    </div>
+    <a class="brand" href="#home" aria-label="Damsam Treats home"><span class="brand-icon">D</span><span><strong>DAMSAM</strong><small>TREATS</small></span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    <nav class="main-nav" id="mainNav"><a href="#home">Home</a><a href="#menu">Our Menu</a><a href="#about">About</a><a href="#contact">Contact</a></nav>
+    <button class="cart-button" id="openCart" aria-label="Open cart"><span class="cart-icon">🛒</span><span>Cart</span><b id="cartCount">0</b></button>
   </header>
 
   <main>
     <section class="hero" id="home">
-      <div class="hero-copy">
-        <p class="eyebrow"><span></span> THE DAMSAM EDIT</p>
-        <h1>Good finds.<br><em>Great feeling.</em></h1>
-        <p class="hero-text">Discover thoughtful picks for your everyday life. A fresh collection, a better shopping experience, and quality worth coming back for.</p>
-        <a class="primary-button" href="#shop">Explore the collection <span>↗</span></a>
-        <div class="hero-note"><span class="note-star">✳</span><span><strong>Curated with care</strong><small>Little details make all the difference.</small></span></div>
+      <div class="hero-shade"></div>
+      <div class="hero-content">
+        <span class="hero-kicker">📍 IBADAN, NIGERIA <i></i> ALWAYS FRESH</span>
+        <h1>DAMSAM<br><em>TREATS</em></h1>
+        <p class="hero-tagline">Cravings Meet Satisfaction</p>
+        <p class="hero-description">Sharwama, BBQ, Asun, Fries &amp; more — made fresh and served hot, any time of day or night.</p>
+        <a class="primary-button" href="#menu">Order Now <span>↗</span></a>
+        <div class="open-badge"><strong>24</strong><span>HRS<br>SERVICE</span></div>
       </div>
-      <div class="hero-visual">
-        <div class="hero-image-main"></div>
-        <div class="hero-image-small"></div>
-        <div class="floating-label"><span>THE NEW</span><strong>Everyday<br>essentials</strong><i>✦</i></div>
-        <div class="hero-index">01 <span>/</span> 03</div>
-      </div>
+      <div class="hero-food-label"><span>FRESHLY PREPARED</span><strong>Good food.<br>Anytime.</strong></div>
     </section>
 
-    <section class="trust-strip" aria-label="Store benefits">
-      <div><span>✧</span> Carefully selected finds</div><div><span>↗</span> Easy ordering</div><div><span>♡</span> Customer-first service</div><div><span>₦</span> Prices in Naira</div>
+    <section class="food-categories" aria-label="Food categories">
+      <a href="#menu" data-jump-category="Sharwama"><span>🌯</span><strong>SHARWAMA</strong></a>
+      <a href="#menu" data-jump-category="Barbeque"><span>🍖</span><strong>BARBEQUE</strong></a>
+      <a href="#menu" data-jump-category="Asun"><span>🥩</span><strong>ASUN</strong></a>
+      <a href="#menu" data-jump-category="Fries"><span>🍟</span><strong>FRIES &amp; CHICKEN</strong></a>
     </section>
 
-    <section class="shop-section section-wrap" id="shop">
-      <div class="section-heading">
-        <div><p class="eyebrow">A GOOD PLACE TO START</p><h2>Shop the collection<span>.</span></h2></div>
-        <p>Explore a few of our featured picks.<br><small>More products and categories coming soon.</small></p>
-      </div>
-      <div class="shop-toolbar">
-        <div class="category-list" id="categoryList">
-          <button class="category-chip selected" data-category="All">All items</button>
-          <button class="category-chip" data-category="Lifestyle">Lifestyle</button>
-          <button class="category-chip" data-category="Accessories">Accessories</button>
-          <button class="category-chip" data-category="Home">Home</button>
+    <section class="menu-section section-wrap" id="menu">
+      <div class="section-heading"><div><span class="eyebrow">WHAT WE SERVE</span><h2>OUR <em>MENU</em></h2></div><p>Everything prepared fresh, loaded with flavour.<br>Pick your favourites and we'll sort you out.</p></div>
+      <div class="menu-tools">
+        <div class="category-filters" id="categoryFilters">
+          <button class="filter-chip active" data-category="All">All</button>
+          <button class="filter-chip" data-category="Sharwama">Sharwama</button>
+          <button class="filter-chip" data-category="Barbeque">Barbeque</button>
+          <button class="filter-chip" data-category="Asun">Asun</button>
+          <button class="filter-chip" data-category="Fries">Fries</button>
+          <button class="filter-chip" data-category="Noodles">Noodles &amp; Meals</button>
         </div>
-        <label class="search-box"><svg viewBox="0 0 24 24"><circle cx="10.8" cy="10.8" r="6.8"></circle><path d="m16 16 5 5"></path></svg><input id="productSearch" type="search" placeholder="Search products..." aria-label="Search products"></label>
+        <label class="search-box"><span>⌕</span><input id="menuSearch" type="search" placeholder="Find something delicious..." aria-label="Search menu"></label>
       </div>
-      <div class="product-grid" id="productGrid" aria-live="polite"></div>
-      <p class="catalogue-note">These are starter display products. The catalogue can be tailored to the exact products Damsam Store sells.</p>
+      <div class="menu-grid" id="menuGrid" aria-live="polite"></div>
     </section>
 
-    <section class="story-band" id="story">
-      <div class="story-image"></div>
-      <div class="story-copy"><p class="eyebrow">A MORE THOUGHTFUL WAY TO SHOP</p><h2>It's not just what<br>you buy. It's how<br><em>it makes you feel.</em></h2><p>At Damsam, we're building a store around useful finds, simple browsing, and a shopping experience that feels effortless from start to finish.</p><a href="#shop" class="text-link">Find your next favourite <span>↗</span></a></div>
+    <section class="about-section" id="about">
+      <div class="about-photo"><div class="photo-stamp">MADE FRESH<br><strong>WITH LOVE</strong> ♡</div></div>
+      <div class="about-copy"><span class="eyebrow">WHO WE ARE</span><h2>ABOUT <em>DAMSAM</em></h2>
+        <p>We are a passionate mini eatery in Ibadan dedicated to one thing: making your cravings a reality. From sizzling sharwama to smoky asun, every item is prepared with care and quality ingredients.</p>
+        <p>Open 24 hours, 7 days a week — because hunger doesn't keep a schedule. Whether it's a midnight craving or a weekend feast, Damsam Treats has you covered.</p>
+        <div class="about-stats"><div><strong>24/7</strong><span>OPEN ALWAYS</span></div><div><strong>16</strong><span>MENU OPTIONS</span></div><div><strong>2</strong><span>LOCATIONS</span></div></div>
+      </div>
     </section>
 
-    <section class="newsletter section-wrap">
-      <div><p class="eyebrow">STAY IN THE LOOP</p><h2>Good things are<br><em>worth sharing.</em></h2></div>
-      <form id="newsletterForm"><label for="newsletterEmail">Get updates when something new arrives.</label><div class="newsletter-field"><input id="newsletterEmail" type="email" placeholder="Your email address" required><button type="submit" aria-label="Subscribe">↗</button></div><small id="newsletterMessage">No spam. Just the good stuff.</small></form>
+    <section class="locations-section section-wrap" id="contact">
+      <div class="section-heading"><div><span class="eyebrow">COME THROUGH OR ORDER</span><h2>FIND <em>US</em></h2></div><p>Two convenient locations in Ibadan.<br>We're ready when you are.</p></div>
+      <div class="location-grid">
+        <article class="location-card"><span class="location-pin">📍</span><span class="eyebrow">LOCATION 1</span><h3>Ajibode</h3><p>Opposite Blessed Baptist Church, Lakoto Area, Ajibode, Ibadan</p></article>
+        <article class="location-card"><span class="location-pin">📍</span><span class="eyebrow">LOCATION 2</span><h3>Apete</h3><p>Fanawole Street, Before Ile-Ball, Apete, Ibadan</p></article>
+        <article class="location-card phone-card"><span class="location-pin">📞</span><span class="eyebrow">CALL / WHATSAPP</span><h3>Talk to us</h3><p><a href="tel:07081992566">07081992566</a><br><a href="tel:08068955641">08068955641</a></p><div class="phone-links"><a href="https://wa.me/2347081992566" target="_blank" rel="noopener">WhatsApp 1 ↗</a><a href="https://wa.me/2348068955641" target="_blank" rel="noopener">WhatsApp 2 ↗</a></div></article>
+      </div>
+    </section>
+
+    <section class="order-section">
+      <div class="order-intro"><span class="eyebrow">GET IN TOUCH</span><h2>PLACE YOUR<br><em>ORDER</em></h2><p>Tell us what you'd like. Your order will open in WhatsApp so our team can confirm and prepare it.</p><div class="order-callout">🔥 <span>Fresh food, day or night.<br><strong>We're open 24/7.</strong></span></div></div>
+      <form class="order-form" id="orderForm">
+        <label>Your Name<input id="customerName" type="text" placeholder="e.g. Amina Bello" required></label>
+        <label>Phone Number<input id="customerPhone" type="tel" placeholder="080XXXXXXXX" required></label>
+        <label>Preferred Location<select id="preferredLocation" required><option value="">-- Select Location --</option><option value="Location 1 - Opposite Blessed Baptist Church, Lakoto Area, Ajibode, Ibadan">Location 1 — Ajibode</option><option value="Location 2 - Fanawole Street, Before Ile-Ball, Apete, Ibadan">Location 2 — Apete</option></select></label>
+        <label>Your Order<textarea id="orderDetails" rows="4" placeholder="e.g. 2x Chicken Sharwama, 1x Asun, 1x Noodles &amp; Egg..." required></textarea></label>
+        <button class="primary-button submit-order" type="submit">Send Order via WhatsApp <span>↗</span></button>
+        <small class="form-note">Your order will open WhatsApp — we'll confirm &amp; prepare!</small>
+      </form>
     </section>
   </main>
 
-  <footer id="footer"><div class="footer-top"><a class="brand footer-brand" href="#"><span class="brand-mark">D</span><span>DAMSAM<span class="brand-sub">STORE</span></span></a><p>Everyday finds, elevated.</p><a href="mailto:hello@damsam.store">Get in touch ↗</a></div><div class="footer-bottom"><span>© <span id="year"></span> Damsam Store. All rights reserved.</span><span>Made for everyday living.</span></div></footer>
+  <footer class="site-footer"><div class="footer-main"><a class="brand footer-brand" href="#home"><span class="brand-icon">D</span><span><strong>DAMSAM</strong><small>TREATS</small></span></a><p>Cravings Meet Satisfaction</p><div class="footer-links"><a href="https://wa.me/2347081992566" target="_blank" rel="noopener">WhatsApp</a><a href="tel:07081992566">Call Us</a><a href="#contact">Contact</a></div></div><div class="footer-bottom"><span>© <span id="year"></span> Damsam Treats. All rights reserved.</span><span>Open 24 hours, every day.</span></div></footer>
 
   <div class="overlay" id="overlay"></div>
-  <aside class="cart-drawer" id="cartDrawer" aria-label="Shopping bag" aria-hidden="true">
-    <div class="drawer-header"><div><p class="eyebrow">YOUR SELECTION</p><h2>Your bag <span id="drawerCount">(0)</span></h2></div><button class="close-button" id="closeCart" aria-label="Close bag">×</button></div>
-    <div class="cart-items" id="cartItems"><div class="empty-cart"><span>✧</span><h3>Your bag is waiting</h3><p>Add something lovely to get started.</p><button class="primary-button" id="continueShopping">Continue shopping ↗</button></div></div>
-    <div class="cart-footer"><div class="subtotal"><span>Subtotal</span><strong id="cartSubtotal">₦0</strong></div><p>Delivery fee, if applicable, will be confirmed when you order.</p><button class="checkout-button" id="checkoutButton">Continue to order <span>↗</span></button></div>
+  <aside class="cart-drawer" id="cartDrawer" aria-label="Your cart" aria-hidden="true">
+    <div class="drawer-header"><div><span class="eyebrow">YOUR CART</span><h2>Your Order <small id="drawerCount">(0 items)</small></h2></div><button class="close-button" id="closeCart" aria-label="Close cart">×</button></div>
+    <div class="cart-items" id="cartItems"><div class="empty-cart"><span>🛒</span><h3>Your cart is empty</h3><p>Add your favourites from our menu.</p><button class="primary-button" id="continueShopping">Browse Menu ↗</button></div></div>
+    <div class="cart-footer"><div class="cart-total"><span>TOTAL ITEMS</span><strong id="cartTotalItems">0 items</strong></div><div class="cart-total grand-total"><span>TOTAL</span><strong id="cartSubtotal">₦0</strong></div><button class="checkout-button" id="checkoutButton">Order via WhatsApp 💬</button><button class="clear-cart" id="clearCart">Clear Cart</button></div>
   </aside>
   <div class="toast" id="toast" role="status"></div>
   <script src="script.js"></script>
