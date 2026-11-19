@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#171717">
+  <meta name="description" content="Discover quality everyday essentials at Damsam Store. Shop a curated collection with easy checkout.">
+  <title>Damsam Store — Everyday Finds, Elevated</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="announcement">A little something special in every order <span>✦</span> Shop Damsam today</div>
+  <header class="site-header">
+    <a class="brand" href="#" aria-label="Damsam Store home"><span class="brand-mark">D</span><span>DAMSAM<span class="brand-sub">STORE</span></span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false"><span></span><span></span></button>
+    <nav class="main-nav" id="mainNav">
+      <a class="active" href="#home">Home</a>
+      <a href="#shop">Shop</a>
+      <a href="#story">Our Story</a>
+      <a href="#footer">Contact</a>
+    </nav>
+    <div class="header-actions">
+      <button class="icon-button" id="searchFocus" aria-label="Focus search"><svg viewBox="0 0 24 24"><circle cx="10.8" cy="10.8" r="6.8"></circle><path d="m16 16 5 5"></path></svg></button>
+      <button class="cart-button" id="openCart" aria-label="Open shopping bag"><svg viewBox="0 0 24 24"><path d="M5 8h14l1 13H4L5 8Z"></path><path d="M9 9V6a3 3 0 0 1 6 0v3"></path></svg><span>Bag</span><b id="cartCount">0</b></button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow"><span></span> THE DAMSAM EDIT</p>
+        <h1>Good finds.<br><em>Great feeling.</em></h1>
+        <p class="hero-text">Discover thoughtful picks for your everyday life. A fresh collection, a better shopping experience, and quality worth coming back for.</p>
+        <a class="primary-button" href="#shop">Explore the collection <span>↗</span></a>
+        <div class="hero-note"><span class="note-star">✳</span><span><strong>Curated with care</strong><small>Little details make all the difference.</small></span></div>
+      </div>
+      <div class="hero-visual">
+        <div class="hero-image-main"></div>
+        <div class="hero-image-small"></div>
+        <div class="floating-label"><span>THE NEW</span><strong>Everyday<br>essentials</strong><i>✦</i></div>
+        <div class="hero-index">01 <span>/</span> 03</div>
+      </div>
+    </section>
+
+    <section class="trust-strip" aria-label="Store benefits">
+      <div><span>✧</span> Carefully selected finds</div><div><span>↗</span> Easy ordering</div><div><span>♡</span> Customer-first service</div><div><span>₦</span> Prices in Naira</div>
+    </section>
+
+    <section class="shop-section section-wrap" id="shop">
+      <div class="section-heading">
+        <div><p class="eyebrow">A GOOD PLACE TO START</p><h2>Shop the collection<span>.</span></h2></div>
+        <p>Explore a few of our featured picks.<br><small>More products and categories coming soon.</small></p>
+      </div>
+      <div class="shop-toolbar">
+        <div class="category-list" id="categoryList">
+          <button class="category-chip selected" data-category="All">All items</button>
+          <button class="category-chip" data-category="Lifestyle">Lifestyle</button>
+          <button class="category-chip" data-category="Accessories">Accessories</button>
+          <button class="category-chip" data-category="Home">Home</button>
+        </div>
+        <label class="search-box"><svg viewBox="0 0 24 24"><circle cx="10.8" cy="10.8" r="6.8"></circle><path d="m16 16 5 5"></path></svg><input id="productSearch" type="search" placeholder="Search products..." aria-label="Search products"></label>
+      </div>
+      <div class="product-grid" id="productGrid" aria-live="polite"></div>
+      <p class="catalogue-note">These are starter display products. The catalogue can be tailored to the exact products Damsam Store sells.</p>
+    </section>
+
+    <section class="story-band" id="story">
+      <div class="story-image"></div>
+      <div class="story-copy"><p class="eyebrow">A MORE THOUGHTFUL WAY TO SHOP</p><h2>It's not just what<br>you buy. It's how<br><em>it makes you feel.</em></h2><p>At Damsam, we're building a store around useful finds, simple browsing, and a shopping experience that feels effortless from start to finish.</p><a href="#shop" class="text-link">Find your next favourite <span>↗</span></a></div>
+    </section>
+
+    <section class="newsletter section-wrap">
+      <div><p class="eyebrow">STAY IN THE LOOP</p><h2>Good things are<br><em>worth sharing.</em></h2></div>
+      <form id="newsletterForm"><label for="newsletterEmail">Get updates when something new arrives.</label><div class="newsletter-field"><input id="newsletterEmail" type="email" placeholder="Your email address" required><button type="submit" aria-label="Subscribe">↗</button></div><small id="newsletterMessage">No spam. Just the good stuff.</small></form>
+    </section>
+  </main>
+
+  <footer id="footer"><div class="footer-top"><a class="brand footer-brand" href="#"><span class="brand-mark">D</span><span>DAMSAM<span class="brand-sub">STORE</span></span></a><p>Everyday finds, elevated.</p><a href="mailto:hello@damsam.store">Get in touch ↗</a></div><div class="footer-bottom"><span>© <span id="year"></span> Damsam Store. All rights reserved.</span><span>Made for everyday living.</span></div></footer>
+
+  <div class="overlay" id="overlay"></div>
+  <aside class="cart-drawer" id="cartDrawer" aria-label="Shopping bag" aria-hidden="true">
+    <div class="drawer-header"><div><p class="eyebrow">YOUR SELECTION</p><h2>Your bag <span id="drawerCount">(0)</span></h2></div><button class="close-button" id="closeCart" aria-label="Close bag">×</button></div>
+    <div class="cart-items" id="cartItems"><div class="empty-cart"><span>✧</span><h3>Your bag is waiting</h3><p>Add something lovely to get started.</p><button class="primary-button" id="continueShopping">Continue shopping ↗</button></div></div>
+    <div class="cart-footer"><div class="subtotal"><span>Subtotal</span><strong id="cartSubtotal">₦0</strong></div><p>Delivery fee, if applicable, will be confirmed when you order.</p><button class="checkout-button" id="checkoutButton">Continue to order <span>↗</span></button></div>
+  </aside>
+  <div class="toast" id="toast" role="status"></div>
+  <script src="script.js"></script>
+</body>
+</html>
